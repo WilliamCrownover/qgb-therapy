@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -49,7 +51,6 @@ export default function Header() {
 
 	return (
 		<>
-
 			<div className={`sidenav ${navOpen ? "open" : "closed"}`}>
 				<div href="#" className="closebtn" onClick={closeNav}>&times;</div>
 				{navData.map((page) => (
@@ -63,7 +64,7 @@ export default function Header() {
 				))}
 			</div>
 			<header className="flex f-arnd f-align-c">
-				<div><span onClick={openNav}>O</span></div>
+				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
 				<h1>QGB Therapy</h1>
 				<div>
 					<h2>Psychotherapy services by Dr. Quintin Bailey, PsyD</h2>
