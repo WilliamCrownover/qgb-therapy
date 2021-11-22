@@ -6,7 +6,8 @@
 :root {
   --bg: #B82554;
   --header: #831A3C;
-  --text-box: rgb(202, 202, 202, .95);
+  --text-box: rgba(231, 231, 231, 0.7);
+  --text-light: rgba(231, 231, 231, 0.85);
   --text: #000000;
   --header-height: 100px;
 }
@@ -30,11 +31,19 @@ header {
   height: var(--header-height);
   padding: 20px;
   padding-left: 40px;
+  background-color: var(--header);
+}
+
+h1,
+h2 {
+  color: var(--text-light);
 }
 
 h1 {
   font-weight: bold;
   margin: 0;
+  margin-right: 30px;
+  flex: 0 0 225px;
 }
 
 h2 {
@@ -66,4 +75,8 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: var(--text-box);
+  margin: 0;
+  padding: 20px 30px;
+  border-radius: 20px;
 }
