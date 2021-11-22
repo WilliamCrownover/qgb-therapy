@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Clinical from './Clinical';
+import Covid from './Covid';
 
 export default function Pages() {
 
@@ -12,6 +13,7 @@ export default function Pages() {
 				<Routes>
 					<Route exact path='/about' element={<About />} />
 					<Route exact path='/clinical-services' element={<Clinical />} />
+					<Route exact path='/covid' element={<Covid />} />
 					<Route path='*' element={<Home />} />
 				</Routes>
 			</Router>
