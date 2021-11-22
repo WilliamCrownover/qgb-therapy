@@ -10,7 +10,7 @@ export default function Pages() {
 			<Router>
 				<Routes>
 					<Route exact path='/about' element={<About />} />
-					<Route path='/' element={<Home />} />
+					<Route path='*' element={<Home />} />
 				</Routes>
 			</Router>
 		</>
