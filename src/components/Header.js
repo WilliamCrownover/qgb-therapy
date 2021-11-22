@@ -63,7 +63,7 @@ export default function Header() {
 					</Link>
 				))}
 			</div>
-			<header className="flex f-arnd f-align-c">
+			<header className="flex f-btw f-align-c">
 				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
 				<h1>QGB Therapy</h1>
 				<div>

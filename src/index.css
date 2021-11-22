@@ -21,11 +21,14 @@ html {
 .flex {
   display: flex;
 }
-.f-arnd {
+.f-btw {
   justify-content: space-between;
 }
 .f-align-c {
   align-items: center;
+}
+.f-align-top {
+  align-items: flex-start;
 }
 
 header {
@@ -150,6 +153,35 @@ h2 {
 .sidenav .closebtn:hover {
   color: var(--text-box);
   cursor: pointer;
+}
+/* ---------- */
+
+.pageContainer {
+  background-color: var(--text-box);
+  width: calc(100% - 30px);
+  max-width: 800px;
+  margin: 80px auto;
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h3 {
+  color: var(--text);
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 250px;
+}
+
+p {
+  margin: 0;
+  padding: 0 0 0 30px;
+  line-height: 1.5rem;
 }
 
 /* Media query 800px width */
