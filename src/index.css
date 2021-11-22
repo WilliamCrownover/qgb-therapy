@@ -8,8 +8,62 @@
   --header: #831A3C;
   --text-box: rgb(202, 202, 202, .95);
   --text: #000000;
+  --header-height: 100px;
 }
 
 html {
   background-color: var(--bg);
+}
+
+/* Flexbox classes */
+.flex {
+  display: flex;
+}
+.f-arnd {
+  justify-content: space-around;
+}
+.f-align-c {
+  align-items: center;
+}
+
+header {
+  height: var(--header-height);
+  padding: 20px;
+  padding-left: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  text-align: right;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.container-img-quote {
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.hero-img {
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  background-size: cover;
+  background-position: center;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
