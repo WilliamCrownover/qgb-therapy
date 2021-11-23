@@ -218,4 +218,21 @@ li {
   margin-top: 20px;
 }
 
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--nav);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-box);
+}
+
 /* Media query 800px width */
