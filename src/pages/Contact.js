@@ -11,7 +11,6 @@ export default function Contact() {
 				</p>
 				<img className="contact-img" src={`${process.env.PUBLIC_URL}/assets/phone.png`} alt="Dr. Quintin Bailey phone number" />
 				<img className="contact-img" src={`${process.env.PUBLIC_URL}/assets/email.png`} alt="Dr. Quintin Bailey email" />
-
 			</div>
 		</>
 	);

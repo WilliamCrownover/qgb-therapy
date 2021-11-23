@@ -5,6 +5,7 @@ import About from './About';
 import Clinical from './Clinical';
 import Covid from './Covid';
 import Contact from './Contact';
+import Consultation from './Consultation';
 
 export default function Pages() {
 
@@ -16,6 +17,7 @@ export default function Pages() {
 					<Route exact path='/clinical-services' element={<Clinical />} />
 					<Route exact path='/covid' element={<Covid />} />
 					<Route exact path='/contact' element={<Contact />} />
+					<Route exact path='/consultation' element={<Consultation />} />
 					<Route path='*' element={<Home />} />
 				</Routes>
 			</Router>
