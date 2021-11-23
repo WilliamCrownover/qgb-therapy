@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/qgb-therapy/static/css/main.1e1eb27e.chunk.css",
+    "main.js": "/qgb-therapy/static/js/main.8f139aac.chunk.js",
+    "main.js.map": "/qgb-therapy/static/js/main.8f139aac.chunk.js.map",
+    "runtime-main.js": "/qgb-therapy/static/js/runtime-main.621aa508.js",
+    "runtime-main.js.map": "/qgb-therapy/static/js/runtime-main.621aa508.js.map",
+    "static/js/2.8af20279.chunk.js": "/qgb-therapy/static/js/2.8af20279.chunk.js",
+    "static/js/2.8af20279.chunk.js.map": "/qgb-therapy/static/js/2.8af20279.chunk.js.map",
+    "static/js/3.ce3a46b5.chunk.js": "/qgb-therapy/static/js/3.ce3a46b5.chunk.js",
+    "static/js/3.ce3a46b5.chunk.js.map": "/qgb-therapy/static/js/3.ce3a46b5.chunk.js.map",
+    "index.html": "/qgb-therapy/index.html",
+    "static/css/main.1e1eb27e.chunk.css.map": "/qgb-therapy/static/css/main.1e1eb27e.chunk.css.map",
+    "static/js/2.8af20279.chunk.js.LICENSE.txt": "/qgb-therapy/static/js/2.8af20279.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.621aa508.js",
+    "static/js/2.8af20279.chunk.js",
+    "static/css/main.1e1eb27e.chunk.css",
+    "static/js/main.8f139aac.chunk.js"
+  ]
+}
