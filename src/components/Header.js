@@ -9,32 +9,32 @@ export default function Header() {
 	const navData = [
 		{
 			id: 1,
-			to: '/qgb-therapy',
+			to: '/',
 			name: 'Home'
 		},
 		{
 			id: 2,
-			to: '/qgb-therapy/about',
+			to: '/about',
 			name: 'About Dr. Bailey'
 		},
 		{
 			id: 3,
-			to: '/qgb-therapy/clinical-services',
+			to: '/clinical-services',
 			name: 'Clinical Services'
 		},
 		{
 			id: 4,
-			to: '/qgb-therapy/covid',
+			to: '/covid',
 			name: 'COVID-19'
 		},
 		{
 			id: 5,
-			to: '/qgb-therapy/contact',
+			to: '/contact',
 			name: 'Contact'
 		},
 		{
 			id: 6,
-			to: '/qgb-therapy/consultation',
+			to: '/consultation',
 			name: 'Trans Inclusive Clinic Consultation'
 		}
 	]

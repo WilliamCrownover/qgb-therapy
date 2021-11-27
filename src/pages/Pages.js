@@ -13,11 +13,11 @@ export default function Pages() {
 		<>
 			<Router>
 				<Routes>
-					<Route exact path='/qgb-therapy/about' element={<About />} />
-					<Route exact path='/qgb-therapy/clinical-services' element={<Clinical />} />
-					<Route exact path='/qgb-therapy/covid' element={<Covid />} />
-					<Route exact path='/qgb-therapy/contact' element={<Contact />} />
-					<Route exact path='/qgb-therapy/consultation' element={<Consultation />} />
+					<Route exact path='/about' element={<About />} />
+					<Route exact path='/clinical-services' element={<Clinical />} />
+					<Route exact path='/covid' element={<Covid />} />
+					<Route exact path='/contact' element={<Contact />} />
+					<Route exact path='/consultation' element={<Consultation />} />
 					<Route path='*' element={<Home />} />
 				</Routes>
 			</Router>
