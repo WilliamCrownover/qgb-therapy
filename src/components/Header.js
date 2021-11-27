@@ -68,7 +68,7 @@ export default function Header() {
 				<h1>QGB Therapy</h1>
 				<div>
 					<h2>Psychotherapy services by Quintin Bailey, PsyD</h2>
-					<h2>Supervised by Dr. Krista Jordan, PhD, ABPP</h2>
+					<h2>Supervised by Krista Jordan, PhD, ABPP</h2>
 				</div>
 			</header>
 		</>

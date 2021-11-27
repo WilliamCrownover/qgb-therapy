@@ -81,10 +81,11 @@ h2 {
 }
 
 .hero-img {
-  width: 100%;
+  width: auto;
   height: calc(100vh - var(--header-height));
-  background-size: cover;
+  background-size:contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .quote {
@@ -96,6 +97,7 @@ h2 {
   margin: 0;
   padding: 20px 30px;
   border-radius: 20px;
+  width: 400px;
 }
 
 /* The side navigation menu */
