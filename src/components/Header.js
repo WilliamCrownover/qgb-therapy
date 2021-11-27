@@ -67,7 +67,7 @@ export default function Header() {
 				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
 				<h1>QGB Therapy</h1>
 				<div>
-					<h2>Psychotherapy services by Dr. Quintin Bailey, PsyD</h2>
+					<h2>Psychotherapy services by Quintin Bailey, PsyD</h2>
 					<h2>Supervised by Dr. Krista Jordan, PhD, ABPP</h2>
 				</div>
 			</header>
