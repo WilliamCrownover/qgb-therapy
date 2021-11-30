@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
 import About from './About';
@@ -11,7 +11,6 @@ export default function Pages() {
 
 	return (
 		<>
-			<Router>
 				<Routes>
 					<Route exact path='/about' element={<About />} />
 					<Route exact path='/clinical-services' element={<Clinical />} />
@@ -20,7 +19,6 @@ export default function Pages() {
 					<Route exact path='/consultation' element={<Consultation />} />
 					<Route path='/*' element={<Home />} />
 				</Routes>
-			</Router>
 		</>
 	);
 }
