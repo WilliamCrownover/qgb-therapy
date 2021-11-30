@@ -18,7 +18,7 @@ export default function Pages() {
 					<Route exact path='/covid' element={<Covid />} />
 					<Route exact path='/contact' element={<Contact />} />
 					<Route exact path='/consultation' element={<Consultation />} />
-					<Route path='*' element={<Home />} />
+					<Route path='/*' element={<Home />} />
 				</Routes>
 			</Router>
 		</>
