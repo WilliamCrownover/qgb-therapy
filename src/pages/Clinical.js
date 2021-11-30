@@ -8,7 +8,7 @@ export default function Clinical() {
 			<div className="pageContainer">
 				<h3>Clinical Services</h3>
 				<h4>Individual Therapy</h4>
-				<p style={{ textIndent: '40px' }}>I am currently offering in-person psychotherapy services for adults. My hours are 1pm-7pm Monday-Thursday, and 10am-5pm on Fridays.
+				<p style={{ textIndent: '40px' }}>I am currently offering in-person psychotherapy services for adults. My hours are 10am-7pm Tuesday-Thursday, and 10am-5pm on Fridays.
 				</p>
 				<h4>Group Therapy</h4>
 				<h5>Beyond the Binary – Tuesdays 6pm-7:30pm</h5>
