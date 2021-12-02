@@ -63,10 +63,11 @@ export default function Header() {
 					</Link>
 				))}
 			</div>
-			<header className="flex f-btw f-align-c">
+			<header className="flex flex-wrap f-btw f-align-c">
 				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
 				<h1>QGB Therapy</h1>
-				<div>
+				<div className="break"></div>
+				<div className="header-subtext">
 					<h2>Psychotherapy services by Quintin Bailey, PsyD</h2>
 					<h2>Supervised by Krista Jordan, PhD, ABPP</h2>
 				</div>

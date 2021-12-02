@@ -24,7 +24,7 @@ export default function Clinical() {
 					<p style={{ textIndent: '40px' }}>During grad school, Dr. Bailey worked at Portia Bell Hume in the partial hospitalization program providing interpersonal process groups to adults with chronic mental health struggles and systemic stressors. As well, he provided long-term outpatient therapy to individuals with personality and dissociative disorders through the Pacific Center for Human Growth, the oldest LGBTQIA+ center in the Bay Area. Dr. Bailey completed his predoctoral internship at The University of Texas at Austin Counseling and Mental Health Center where he specialized in working within the transgender and gender non-conforming community and those experiencing multiplicity or plurality. He is excited about his post-doctoral fellowship supervised by Krista Jordan, PhD.
 					</p>
 					<h5>Specializations </h5>
-					<div className="flex f-arnd">
+					<div className="flex flex-wrap f-arnd">
 						<ul>
 							<li>Personality Disorders</li>
 							<li>Dissociative Disorders</li>
@@ -32,6 +32,7 @@ export default function Clinical() {
 							<li>Multiplicity and Plurality</li>
 							<li>Relationship Issues</li>
 						</ul>
+						<div className="break-2"></div>
 						<ul>
 							<li>Eating Disorders</li>
 							<li>Identity Development and Integration</li>
