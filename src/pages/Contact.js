@@ -11,6 +11,52 @@ export default function Contact() {
 					</p>
 					<img className="contact-img" src={`${process.env.PUBLIC_URL}/assets/phone.png`} alt="Dr. Quintin Bailey phone number" />
 					<img className="contact-img" src={`${process.env.PUBLIC_URL}/assets/email.png`} alt="Dr. Quintin Bailey email" />
+					<div className="c-full">
+						<iframe 
+							title="contact" 
+							src="https://docs.google.com/forms/d/e/1FAIpQLScWbI8ae5xurm8efv_e1kUoCoZd20gl_qKysSlaqIWAlr3r5A/viewform?embedded=true" 
+							width="750" height="910" frameborder="0" marginheight="0" marginwidth="0"
+							>
+								Loading…
+						</iframe>
+					</div>
+					<div className="c-840">
+						<iframe 
+							title="contact" 
+							src="https://docs.google.com/forms/d/e/1FAIpQLScWbI8ae5xurm8efv_e1kUoCoZd20gl_qKysSlaqIWAlr3r5A/viewform?embedded=true" 
+							width="670" height="910" frameborder="0" marginheight="0" marginwidth="0"
+							>
+								Loading…
+						</iframe>
+					</div>
+					<div className="c-770">
+						<iframe 
+							title="contact" 
+							src="https://docs.google.com/forms/d/e/1FAIpQLScWbI8ae5xurm8efv_e1kUoCoZd20gl_qKysSlaqIWAlr3r5A/viewform?embedded=true" 
+							width="510" height="950" frameborder="0" marginheight="0" marginwidth="0"
+							>
+								Loading…
+						</iframe>
+					</div>
+					<div className="c-500">
+						<iframe 
+							title="contact" 
+							src="https://docs.google.com/forms/d/e/1FAIpQLScWbI8ae5xurm8efv_e1kUoCoZd20gl_qKysSlaqIWAlr3r5A/viewform?embedded=true" 
+							width="410" height="980" frameborder="0" marginheight="0" marginwidth="0"
+							>
+								Loading…
+						</iframe>
+					</div>
+					<div className="c-mobile">
+						<iframe 
+							title="contact" 
+							id="mobile-form"
+							src="https://docs.google.com/forms/d/e/1FAIpQLScWbI8ae5xurm8efv_e1kUoCoZd20gl_qKysSlaqIWAlr3r5A/viewform?embedded=true" 
+							width="270" height="1160" frameborder="0" marginheight="0" marginwidth="0"
+							>
+								Loading…
+						</iframe>
+					</div>
 				</div>
 				<Footer />
 			</div>
