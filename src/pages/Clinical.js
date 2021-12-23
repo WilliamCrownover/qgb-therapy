@@ -10,10 +10,6 @@ export default function Clinical() {
 					<h4>Individual Therapy</h4>
 					<p style={{ textIndent: '40px' }}>I am currently offering in-person psychotherapy services for adults. My hours are 10am-7pm Tuesday-Thursday, and 10am-5pm on Fridays.
 					</p>
-					<h4>Group Therapy</h4>
-					<h5>Beyond the Binary – Tuesdays 6pm-7:30pm</h5>
-					<p style={{ textIndent: '40px' }}>This group is a supportive place for trans and non-binary folks to gain powerful experience connecting within community and is open to people in any place of their gender journey. The space is an interpersonal process and support group where members can explore themes important to them, engage in new ways of relating to others, and expand understanding of their emotional world.
-					</p>
 					<h4>Approach</h4>
 					<p style={{ textIndent: '40px' }}>My primary theoretical orientation is psychodynamic, which means I believe in the unconscious and in the importance of being curious about the unique universe of every patient. Having worked primarily with folks with personality and dissociative disorders, I have great empathy for the suffering from which these styles of relating to the world developed to survive. Every treatment serves as a reminder to me that it is a privilege to sit with another and to witness their process of transformation. By connecting with their values and becoming grounded in the present I have seen folks from a variety of diverse backgrounds and identity intersections increase their capacity to feel, understand, and integrate a range of emotional experiences and become curious about themselves and others.
 					</p>
