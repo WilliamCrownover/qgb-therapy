@@ -38,7 +38,7 @@ export default function Clinical() {
 						</ul>
 					</div>
 					<h5>Fees </h5>
-					<p style={{ textIndent: '40px' }}>Individual therapy sessions are sliding scale $150-$175 per 50-minute hour. Group therapy sessions are $50 per 90-minute hour. I am an out of network provider.
+					<p style={{ textIndent: '40px' }}>Please email or call to inquire about fees. I am an out of network provider and do not accept insurance.
 					</p>
 				</div>
 				<Footer />
