@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 export default function Consultation() {
 
 	return (
-		<>
+		<main>
 			<div className='fullContainer'>
 				<div className="pageContainer">
 					<h3>Trans Inclusive Clinic Consultation</h3>
@@ -35,6 +35,6 @@ export default function Consultation() {
 				</div>
 				<Footer />
 			</div>
-		</>
+		</main>
 	);
 }

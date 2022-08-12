@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 export default function About() {
 
 	return (
-		<>
+		<main>
 			<div className='fullContainer'>
 				<div className="pageContainer">
 					<h3>About Dr. Bailey</h3>
@@ -22,6 +22,6 @@ export default function About() {
 				</div>
 				<Footer />
 			</div>
-		</>
+		</main>
 	);
 }

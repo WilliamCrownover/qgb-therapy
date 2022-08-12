@@ -2,7 +2,7 @@ export default function Footer() {
 
     return (
         <footer className="flex f-btw f-align-c">
-            <p>© 2021</p>
+            <p className="copyright">© 2021</p>
             {/* Professional verification provided by Psychology Today */}
             <a href="https://www.psychologytoday.com/profile/906011" className="sx-verified-seal" target="_blank" rel="noopener noreferrer">
                 <img className="verified-pic" src={`${process.env.PUBLIC_URL}/assets/pt.png`} alt="Verified Psychology Today" />

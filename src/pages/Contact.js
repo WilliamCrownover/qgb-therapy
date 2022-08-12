@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 export default function Contact() {
 
 	return (
-		<>
+		<main>
 			<div className='fullContainer'>
 				<div className="pageContainer">
 					<h3>Contact Dr. Bailey</h3>
@@ -62,6 +62,6 @@ export default function Contact() {
 				</div>
 				<Footer />
 			</div>
-		</>
+		</main>
 	);
 }

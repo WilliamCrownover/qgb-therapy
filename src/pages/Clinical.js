@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 export default function Clinical() {
 
 	return (
-		<>
+		<main>
 			<div className='fullContainer'>
 				<div className="pageContainer">
 					<h3>Clinical Services</h3>
@@ -45,6 +45,6 @@ export default function Clinical() {
 				</div>
 				<Footer />
 			</div>
-		</>
+		</main>
 	);
 }

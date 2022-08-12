@@ -51,7 +51,7 @@ export default function Header() {
 
 	return (
 		<>
-			<div className={`sidenav ${navOpen ? "open" : "closed"}`}>
+			<nav className={`sidenav ${navOpen ? "open" : "closed"}`}>
 				<div href="#" className="closebtn" onClick={closeNav}>&times;</div>
 				{navData.map((page) => (
 					<Link
@@ -62,7 +62,7 @@ export default function Header() {
 						{page.name}
 					</Link>
 				))}
-			</div>
+			</nav>
 			<header className="flex flex-wrap f-btw f-align-c">
 				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
 				<h1>QGB Therapy LLC</h1>

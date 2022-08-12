@@ -3,13 +3,13 @@ import Footer from "../components/Footer";
 export default function Covid() {
 
 	return (
-		<>
+		<main>
 			<div className='fullContainer'>
 				<div className="pageContainer">
 					<h3>COVID-19</h3>
 					<p style={{ textIndent: '40px' }}>With the widespread availability of COVID-19 vaccinations, I am offering exclusively in-person services for new patients.
 					</p>
-					<h5>The following precautions are being taken for in-office sessions:</h5>
+					<h4>The following precautions are being taken for in-office sessions</h4>
 					<ul>
 						<li>Patients experiencing symptoms of COVID-19, patients who have tested positive for COVID-19 in the past two weeks, and patients that have been in contact with another person who has tested positive for COVID-19 will be given the option to do telephone sessions until it is safe to resume in-person services.</li>
 						<li>Masks are required in the communal spaces (e.g., lobby and hallways). Prior to our first meeting, we will discuss your risk level, personal comfort, and other safety concerns before determining mask procedures during session.</li>
@@ -20,6 +20,6 @@ export default function Covid() {
 				</div>
 				<Footer />
 			</div>
-		</>
+		</main>
 	);
 }
