@@ -3,16 +3,13 @@ import Footer from "../components/Footer";
 export default function Contact() {
 
 	return (
-		<main>
+		<>
 			<div className='fullContainer'>
-				<div className="pageContainer">
+				<main className="pageContainer">
 					<h3>Contact Dr. Bailey</h3>
-					<p style={{ textIndent: '40px' }}>To schedule a free 30-minute consultation or to inquire about services, please contact me via phone, email, or the contact form below. I do my best to return messages within 24-hours.
-					</p>
+					<p style={{ textIndent: '40px' }}>To schedule a free 30-minute consultation or to inquire about services, please contact me via phone, email, or the contact form below. I do my best to return messages within 24-hours.</p>
 					<h4>Phone: 737-900-3680</h4>
-					{/* <img className="contact-img" src={`${process.env.PUBLIC_URL}/assets/phone.png`} alt="Dr. Quintin Bailey phone number" /> */}
 					<h4>Email: qgbtherapy@gmail.com</h4>
-					{/* <img className="contact-img" src={`${process.env.PUBLIC_URL}/assets/email.png`} alt="Dr. Quintin Bailey email" /> */}
 					<div className="c-full">
 						<iframe 
 							title="contact" 
@@ -26,9 +23,10 @@ export default function Contact() {
 							Loading…
 						</iframe>
 					</div>
-				</div>
+				</main>
+
 				<Footer />
 			</div>
-		</main>
+		</>
 	);
 }

@@ -13,6 +13,7 @@ export default function Pages() {
 	return (
 		<>
 			<Header />
+			
 			<Routes>
 				<Route exact path='/about' element={<About />} />
 				<Route exact path='/clinical-services' element={<Clinical />} />

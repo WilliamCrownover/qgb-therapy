@@ -70,6 +70,7 @@ export default function Header() {
 				>
 					<FontAwesomeIcon icon={faBars} size="2x" />
 				</div>
+				
 				<h1>QGB Therapy LLC</h1>
 				<div className="break"></div>
 				<div className="header-subtext">
