@@ -263,8 +263,13 @@ li {
   margin-top: 20px;
 }
 
+.map {
+  margin: 20px auto;
+  width: 90%;
+}
+
 .c-full {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
