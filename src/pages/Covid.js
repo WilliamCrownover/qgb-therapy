@@ -15,7 +15,7 @@ export default function Covid() {
 						<li>Masks are required in the communal spaces (e.g., lobby and hallways). Prior to our first meeting, we will discuss your risk level, personal comfort, and other safety concerns before determining mask procedures during session.</li>
 						<li>All surfaces are disinfected between patients.</li>
 						<li>Hand sanitizer is available in the office space.</li>
-						<li>As of March 2021, I am fully vaccinated for COVID-19 and encourage all who can access vaccinations to do so.</li>
+						<li>As of December 2021, I am fully vaccinated for COVID-19 including a booster and encourage all who can access vaccinations to do so.</li>
 					</ul>
 				</div>
 				<Footer />

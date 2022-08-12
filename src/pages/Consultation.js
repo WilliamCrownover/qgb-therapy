@@ -30,7 +30,7 @@ export default function Consultation() {
 					<p style={{ textIndent: '40px' }}>The most extensive offering, this includes an assessment of current clinic practices and the recommended trainings based on that assessment. This package can be fully customized to the needs of the clinic or practice.
 					</p>
 					<h5>Rates and Fees </h5>
-					<p style={{ textIndent: '40px' }}>Rates and fees for trainings are determined by the length of training(s) and depth of review of clinic practices requested. The base rate is $175 per hour for trainings.
+					<p style={{ textIndent: '40px' }}>Rates and fees for trainings are determined by the length of training(s) and depth of review of clinic practices requested. The base rate is $250 per hour for trainings.
 					</p>
 				</div>
 				<Footer />
