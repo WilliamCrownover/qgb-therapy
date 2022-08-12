@@ -76,7 +76,7 @@ h1 {
   font-weight: bold;
   margin: 0;
   margin-right: 30px;
-  flex: 0 0 225px;
+  flex: 0 0 300px;
 }
 
 h2 {
@@ -320,7 +320,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 910px) {
   .c-840 {
     display: none;
   }

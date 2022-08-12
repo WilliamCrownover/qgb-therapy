@@ -65,11 +65,11 @@ export default function Header() {
 			</div>
 			<header className="flex flex-wrap f-btw f-align-c">
 				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
-				<h1>QGB Therapy</h1>
+				<h1>QGB Therapy LLC</h1>
 				<div className="break"></div>
 				<div className="header-subtext">
-					<h2>Psychotherapy services by Quintin Bailey, PsyD</h2>
-					<h2>Supervised by Krista Jordan, PhD, ABPP</h2>
+					<h2>Psychotherapy and Assessment by Quintin Bailey, PsyD</h2>
+					<h2>Clinical Psychologist TX License #39158</h2>
 				</div>
 			</header>
 		</>
