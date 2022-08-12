@@ -62,7 +62,8 @@ header {
   transition: .5s;
 }
 
-.navIcon:hover {
+.navIcon:hover,
+.navIcon:focus {
   color: var(--bg);
   cursor: pointer;
 }
@@ -159,7 +160,8 @@ h2 {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+.sidenav a:hover,
+.sidenav a:focus {
   color: #f1f1f1;
   background-color: var(--bg);
 }
@@ -171,12 +173,13 @@ h2 {
   right: 25px;
   font-size: 3rem;
   margin-left: 50px;
-  color: var(--bg);
+  color: var(--text-light);
   transition: .5s;
 }
 
-.sidenav .closebtn:hover {
-  color: var(--text-box);
+.sidenav .closebtn:hover,
+.sidenav .closebtn:focus {
+  color: var(--bg);
   cursor: pointer;
 }
 /* ---------- */

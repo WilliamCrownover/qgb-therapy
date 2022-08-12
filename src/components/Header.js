@@ -49,22 +49,27 @@ export default function Header() {
 		setNavOpen(false);
 	}
 
+	const keyPress = (e) => {
+		// 13 is the 'Enter' button
+		if(e.which === 13) {
+			setNavOpen(!navOpen);
+			e.target.blur();
+		}
+	}
+
 	return (
 		<>
-			<nav className={`sidenav ${navOpen ? "open" : "closed"}`}>
-				<div href="#" className="closebtn" onClick={closeNav}>&times;</div>
-				{navData.map((page) => (
-					<Link
-						key={page.id}
-						to={page.to}
-						onClick={closeNav}
-					>
-						{page.name}
-					</Link>
-				))}
-			</nav>
 			<header className="flex flex-wrap f-btw f-align-c">
-				<div><span className="navIcon" onClick={openNav}><FontAwesomeIcon icon={faBars} size="2x" /></span></div>
+				<div 
+					role="button"  
+					title="Open nav menu"
+					className="navIcon" 
+					onClick={openNav}
+					onKeyDown={keyPress}
+					tabIndex={navOpen ? "-1" : "0"}
+				>
+					<FontAwesomeIcon icon={faBars} size="2x" />
+				</div>
 				<h1>QGB Therapy LLC</h1>
 				<div className="break"></div>
 				<div className="header-subtext">
@@ -72,6 +77,30 @@ export default function Header() {
 					<h2>Clinical Psychologist TX License #39158</h2>
 				</div>
 			</header>
+			
+			<nav className={`sidenav ${navOpen ? "open" : "closed"}`}>
+				<div 
+					href="#" 
+					role="button" 
+					title="Close nav menu"
+					className="closebtn" 
+					onClick={closeNav} 
+					onKeyDown={keyPress}
+					tabIndex={!navOpen ? "-1" : "0"}
+				>
+					&times;
+				</div>
+				{navData.map((page) => (
+					<Link
+						key={page.id}
+						to={page.to}
+						onClick={closeNav}
+						tabIndex={!navOpen ? "-1" : "0"}
+					>
+						{page.name}
+					</Link>
+				))}
+			</nav>
 		</>
 	);
 }
