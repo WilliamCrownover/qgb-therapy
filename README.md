@@ -11,6 +11,7 @@ Dr. Quintin Bailey earned his PsyD in Clinical Psychology in November 2021 and w
 - [User Story](#user-story)
 - [Live Site](#live-site)
 - [Technologies](#technologies)
+- [Accessibility](#accessibility)
 - [Future Development](#future-development)
 - [License](#license)
 - [Contact](#contact)
@@ -34,6 +35,10 @@ https://qgbtherapy.com/
 - JSX
 - Node.js
 - Custom CSS
+
+## Accessibility
+
+Designing a website with accessibility in mind has become a priority for me as a developer. The first iteration of QGB Therapy did not comply fully with accessibility guidelines due to my lack of knowledge. In this most recent update (8/12/2022) I have refactored the website to comply with accessibility standards using my newly gained knowledge of accessibility best practices. One particular accessibility win I am proud of was refactoring the custom navigation widget to work with keyboard inputs along with proper implementation of aria-labels for those elements.
 
 ## Future Development
 
