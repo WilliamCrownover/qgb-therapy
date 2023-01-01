@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import { Link } from 'react-router-dom';
 
 export default function Clinical() {
 
@@ -39,6 +40,8 @@ export default function Clinical() {
 					</div>
 					<h5>Fees </h5>
 					<p style={{ textIndent: '40px' }}>Psychotherapy sessions are $200 per 50-minute hour. Assessments are $500 flat fee. I am an out of network provider. Sliding scale is available for BIPOC and Trans folks.</p>
+					<br/>
+					<Link to={'/good-faith-estimate'}>No Surprise Act: Good Faith Estimate</Link>
 				</main>
 				
 				<Footer />
