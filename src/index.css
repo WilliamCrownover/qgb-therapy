@@ -17,6 +17,10 @@ html {
   background-color: var(--bg);
 }
 
+iframe {
+  border: none;
+}
+
 /* Flexbox classes */
 .flex {
   display: flex;
