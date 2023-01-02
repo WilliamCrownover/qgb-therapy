@@ -6,6 +6,10 @@
 
 Dr. Quintin Bailey earned his PsyD in Clinical Psychology in November 2021 and was in need of a professional website to elaborate on his clinical services and allow potential new patients to reach out to him for consultation. Working closely with Dr. Bailey, I designed his website structure, user experience, and overall graphic design to compliment his vision. This website is built using React.js framework and is mobile responsive. I designed the CSS from scratch to refine my skills and maintain precise control over the layout. Within the first week of deploying the live site, Dr. Bailey was receiving form submissions from new patients seeking consultations.
 
+August 2022 - I refactored the accessible user experience to meet WCAG 2.1 standards.
+
+January 2023 - I migrated the website from JavaScript to TypeScript.
+
 ## Table of Contents
 
 - [User Story](#user-story)
@@ -32,13 +36,13 @@ https://qgbtherapy.com/
 ## Technologies
 
 - React.js
-- JSX
+- Typescript
 - Node.js
 - Custom CSS
 
 ## Accessibility
 
-Designing a website with accessibility in mind has become a priority for me as a developer. The first iteration of QGB Therapy did not comply fully with accessibility guidelines due to my lack of knowledge. In this most recent update (8/12/2022) I have refactored the website to comply with accessibility standards using my newly gained knowledge of accessibility best practices. One particular accessibility win I am proud of was refactoring the custom navigation widget to work with keyboard inputs along with proper implementation of aria-labels for those elements.
+Designing a website with accessibility in mind has become a priority for me as a developer. The first iteration of QGB Therapy did not comply fully with accessibility guidelines due to my lack of knowledge. I have refactored the website to comply with accessibility standards using my newly gained knowledge of accessibility best practices. One particular accessibility win I am proud of was refactoring the custom navigation widget to work with keyboard inputs along with proper implementation of aria-labels for those elements.
 
 ## Future Development
 
