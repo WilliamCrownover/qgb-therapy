@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-export default function Header() {
+export const Header = () => {
 
 	const navData = [
 		{
@@ -49,45 +49,43 @@ export default function Header() {
 		setNavOpen(false);
 	}
 
-	const keyPress = (e) => {
-		// 13 is the 'Enter' button
-		if(e.which === 13) {
+	const keyPress = (e: React.KeyboardEvent<HTMLDivElement>) => {
+		if (e.key === 'Enter') {
 			setNavOpen(!navOpen);
-			e.target.blur();
+			(e.target as HTMLElement).blur();
 		}
 	}
 
 	return (
 		<>
-			<header className="flex flex-wrap f-btw f-align-c">
-				<div 
-					role="button"  
-					title="Open nav menu"
-					className="navIcon" 
+			<header className='flex flex-wrap f-btw f-align-c'>
+				<div
+					role='button'
+					title='Open nav menu'
+					className='navIcon'
 					onClick={openNav}
 					onKeyDown={keyPress}
-					tabIndex={navOpen ? "-1" : "0"}
+					tabIndex={navOpen ? (-1) : 0}
 				>
-					<FontAwesomeIcon icon={faBars} size="2x" />
+					<FontAwesomeIcon icon={faBars} size='2x' />
 				</div>
-				
+
 				<h1>QGB Therapy LLC</h1>
-				<div className="break"></div>
-				<div className="header-subtext">
+				<div className='break'></div>
+				<div className='header-subtext'>
 					<h2>Psychotherapy and Assessment by Quintin Bailey, PsyD</h2>
 					<h2>Clinical Psychologist TX License #39158</h2>
 				</div>
 			</header>
-			
-			<nav className={`sidenav ${navOpen ? "open" : "closed"}`}>
-				<div 
-					href="#" 
-					role="button" 
-					title="Close nav menu"
-					className="closebtn" 
-					onClick={closeNav} 
+
+			<nav className={`sidenav ${navOpen ? 'open' : 'closed'}`}>
+				<div
+					role='button'
+					title='Close nav menu'
+					className='closebtn'
+					onClick={closeNav}
 					onKeyDown={keyPress}
-					tabIndex={!navOpen ? "-1" : "0"}
+					tabIndex={!navOpen ? (-1) : 0}
 				>
 					&times;
 				</div>
@@ -96,7 +94,7 @@ export default function Header() {
 						key={page.id}
 						to={page.to}
 						onClick={closeNav}
-						tabIndex={!navOpen ? "-1" : "0"}
+						tabIndex={!navOpen ? (-1) : 0}
 					>
 						{page.name}
 					</Link>
