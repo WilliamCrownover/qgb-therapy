@@ -25,24 +25,6 @@ export const Footer = () => {
 					data-id='906011'
 					data-code='aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s='
 				/>
-
-				{/* Top Doctor Badge */}
-				<div className="fatd-badge-outer">
-					<div className="fatd-badge-inner">
-						<a
-							className="fatd-badge-link"
-							href="https://www.findatopdoc.com/doctor/85018170-Quintin-Bailey-Psychologist"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<img
-								className="fatd-badge-img"
-								src="https://www.findatopdoc.com/doctor_images/fatd-badge.png"
-								alt="Findatopdoc Top Doctor Badge"
-							/>
-						</a>
-					</div>
-				</div>
 			</div>
 
 		</footer>
