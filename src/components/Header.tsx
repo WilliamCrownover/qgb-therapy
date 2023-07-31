@@ -24,13 +24,13 @@ export const Header = () => {
 		},
 		{
 			id: 4,
-			to: '/covid',
-			name: 'COVID-19'
+			to: '/contact',
+			name: 'Contact'
 		},
 		{
 			id: 5,
-			to: '/contact',
-			name: 'Contact'
+			to: '/meditations',
+			name: 'Meditations'
 		},
 		{
 			id: 6,
