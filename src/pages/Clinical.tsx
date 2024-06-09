@@ -6,7 +6,7 @@ export const Clinical = () => {
 	return (
 		<PageContainer pageTitle='Clinical Services'>
 			<h4>Individual Therapy</h4>
-			<p style={{ textIndent: '40px' }}>I am currently offering telehealth psychotherapy services for adults throughout Texas. My hours are 11am-7pm Monday, Tuesday, and Wednesday.</p>
+			<p style={{ textIndent: '40px' }}>I am currently offering telehealth psychotherapy services for adults throughout Texas.</p>
 
 			<h4>Approach</h4>
 			<p style={{ textIndent: '40px' }}>My primary theoretical orientation is psychodynamic, which means I believe in the unconscious and in the importance of being curious about the unique universe of every patient. Having worked primarily with folks with personality and dissociative disorders, I have great empathy for the suffering from which these styles of relating to the world developed to survive. Every treatment serves as a reminder to me that it is a privilege to sit with another and to witness their process of transformation. By connecting with their values and becoming grounded in the present I have seen folks from a variety of diverse backgrounds and identity intersections increase their capacity to feel, understand, and integrate a range of emotional experiences and become curious about themselves and others.</p>
@@ -36,7 +36,7 @@ export const Clinical = () => {
 					<li>Differential Diagnosis Assessments</li>
 				</ul>
 			</div>
-			<h5>Fees </h5>
+			<h4>Fees </h4>
 			<p style={{ textIndent: '40px' }}>Psychotherapy sessions are $200 per 50-minute hour. Assessments are $250 per 50-minute hour. I am an out of network provider. Sliding scale is available for BIPOC and Trans folks.</p>
 			<br />
 			<Link to={'/good-faith-estimate'}>No Surprise Act: Good Faith Estimate</Link>

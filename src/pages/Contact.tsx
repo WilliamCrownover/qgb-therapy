@@ -4,7 +4,7 @@ export const Contact = () => {
 
 	return (
 		<PageContainer pageTitle='Contact Dr. Bailey'>
-			<p style={{ textIndent: '40px' }}>To schedule a free 30-minute consultation or to inquire about services, please contact me via phone, email, or the contact form below. I do my best to return messages within 24 business hours.</p>
+			<p style={{ textIndent: '40px' }}>To schedule a free 30-minute consultation or for other questions and inquiries, please contact me via phone, email, or the contact form below. I do my best to return messages within 24 business hours.</p>
 
 			<h4>Information</h4>
 			<h5>Phone: 737-900-3680</h5>
