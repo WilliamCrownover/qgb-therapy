@@ -13,6 +13,7 @@ export const Meditations = () => {
 					allow='autoplay'>
 				</iframe>
 			</div>
+
 			<h4>Safety, Comfort, and Relaxation</h4>
 			<div className='videoContainer'>
 				<iframe 
@@ -22,7 +23,6 @@ export const Meditations = () => {
 					allow='autoplay'>
 				</iframe>
 			</div>
-
 		</PageContainer>
 	);
 }

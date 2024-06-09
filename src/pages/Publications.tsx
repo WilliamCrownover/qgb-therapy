@@ -1,4 +1,5 @@
 import { PageContainer } from '../components/PageContainer';
+import { TabbedParagraph } from '../components/TabbedParagraph';
 
 export const Publications = () => {
 
@@ -10,7 +11,8 @@ export const Publications = () => {
 			</p>
 			<p>Peer reviewed article published in Psychoanalytic Psychology.</p>
 			<br />
-			<p style={{ textIndent: '40px' }}>This article explores popular modern theories of trans identity development and proposes a new conceptualization grounded in psychoanalytic and transgender theory. Building on Winnicott’s (1960) theories of the true and false self to understand trans identity development, this author proposes the concept of trans existential dread to understand the tension between the true and false self for trans folks. These concepts are presented alongside clinical recommendations for exploring gender with all patients.</p>
+			<TabbedParagraph content={'This article explores popular modern theories of trans identity development and proposes a new conceptualization grounded in psychoanalytic and transgender theory. Building on Winnicott’s (1960) theories of the true and false self to understand trans identity development, this author proposes the concept of trans existential dread to understand the tension between the true and false self for trans folks. These concepts are presented alongside clinical recommendations for exploring gender with all patients.'}/>
+
 			<h4>Media</h4>
 			<p>
 				<a href={'https://www.wondermind.com/article/avoidant-personality-disorder/'} target={'_blank'} rel={'noopener noreferrer'}>Do I Have Avoidant Personality Disorder or Am I Just Shy?</a>
