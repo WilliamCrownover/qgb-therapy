@@ -74,7 +74,7 @@ export const Header = () => {
 				<div className='break'></div>
 				<div className='header-subtext'>
 					<h2>Psychotherapy and Assessment by Quintin Bailey, PsyD</h2>
-					<h2>Clinical Psychologist TX License #39158</h2>
+					<h2>Clinical Psychologist <code>&#8211;</code> TX License #39158 <code>&#8211;</code> CA License #34961</h2>
 				</div>
 			</header>
 
