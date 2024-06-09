@@ -6,8 +6,9 @@ import { About } from './About';
 import { Clinical } from './Clinical';
 import { GoodFaithEstimate } from './GoodFaithEstimate';
 import { Contact } from './Contact';
-import { Meditations } from './Meditations';
+import { Publications } from './Publications';
 import { Consultation } from './Consultation';
+import { Meditations } from './Meditations';
 
 export const Pages = () => {
 
@@ -20,8 +21,9 @@ export const Pages = () => {
 				<Route path='/clinical-services' element={<Clinical />} />
 				<Route path='/good-faith-estimate' element={<GoodFaithEstimate />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path='/meditations' element={<Meditations />} />
+				<Route path='/publications' element={<Publications />} />
 				<Route path='/consultation' element={<Consultation />} />
+				<Route path='/meditations' element={<Meditations />} />
 				<Route path='/*' element={<Home />} />
 			</Routes>
 		</>

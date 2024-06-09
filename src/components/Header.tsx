@@ -29,14 +29,20 @@ export const Header = () => {
 		},
 		{
 			id: 5,
-			to: '/meditations',
-			name: 'Meditations'
+			to: '/publications',
+			name: 'Publications and Media'
 		},
 		{
 			id: 6,
 			to: '/consultation',
 			name: 'Trans Inclusive Clinic Consultation'
-		}
+		},
+		{
+			id: 7,
+			to: '/meditations',
+			name: 'Meditations'
+		},
+
 	]
 
 	const [navOpen, setNavOpen] = useState(false);
