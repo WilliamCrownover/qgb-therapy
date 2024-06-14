@@ -17,28 +17,38 @@ export const Header = () => {
 			to: '/about',
 			name: 'About Dr. Bailey'
 		},
+		// {
+		// 	id: 3,
+		// 	to: '/associates',
+		// 	name: 'Postdoctoral Associates'
+		// },
 		{
-			id: 3,
+			id: 4,
 			to: '/clinical-services',
 			name: 'Clinical Services'
 		},
 		{
-			id: 4,
+			id: 5,
 			to: '/contact',
 			name: 'Contact'
 		},
 		{
-			id: 5,
-			to: '/publications',
-			name: 'Publications and Media'
+			id: 6,
+			to: '/postdoctoral-training',
+			name: 'Postdoctoral Training'
 		},
 		{
-			id: 6,
+			id: 7,
 			to: '/consultation',
 			name: 'Trans Inclusive Clinic Consultation'
 		},
 		{
-			id: 7,
+			id: 8,
+			to: '/publications',
+			name: 'Publications and Media'
+		},
+		{
+			id: 9,
 			to: '/meditations',
 			name: 'Meditations'
 		},
