@@ -7,7 +7,7 @@ export const Publications = () => {
 		<PageContainer pageTitle='Publications and Media'>
 			<h4>Publications</h4>
 			<p>
-				<a href={'https://psycnet.apa.org/fulltext/2024-13773-001.html'} target={'_blank'} rel={'noopener noreferrer'}>Trans Identity Development and Integration (2023)</a>
+				<a href={'https://psycnet.apa.org/fulltext/2024-13773-001.html'} target={'_blank'} rel={'noopener noreferrer'}>Trans Identity Development and Integration (2024)</a>
 			</p>
 			<p>Peer reviewed article published in Psychoanalytic Psychology.</p>
 			<br />
