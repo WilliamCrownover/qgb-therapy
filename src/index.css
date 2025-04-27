@@ -200,6 +200,23 @@ h2 {
 	padding-bottom: 9.5rem;
 }
 
+.contact-quicklink {
+	background-color: var(--text-box);
+	padding: 15px;
+	margin: 20px 0px;
+	border-radius: 5px;
+	font-size: 1.3rem;
+	border: solid 4px var(--bg);
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.contact-quicklink:hover {
+	background-color: var(--header);
+	color: var(--text-light);
+	transition: 0.3s;
+}
+
 .pageContainer {
 	background-color: var(--text-box);
 	width: calc(100% - 30px);
@@ -211,9 +228,19 @@ h2 {
 	border-radius: 5px;
 }
 
+.show-contact-button {
+	padding-top: 40px;
+}
+
+.show-contact-button h3 {
+	margin: 30px 0;
+	margin-top: 40px;
+}
+
 h3,
 h4,
-h5 {
+h5,
+.contact-quicklink {
 	color: var(--text);
 	font-weight: bold;
 }
@@ -367,7 +394,7 @@ footer {
 	}
 
 	.fullContainer {
-		min-height: calc(100vh - var(--header-height) - 25px);
+		min-height: calc(100vh - var(--header-height) - 35px);
 	}
 
 	h1 {
@@ -440,6 +467,11 @@ footer {
 		margin: 15px;
 		margin-bottom: 25px;
 		padding: 15px;
+		padding-top: 35px;
+	}
+
+	.contact-quicklink {
+		font-size: 1rem;
 	}
 
 	h3 {

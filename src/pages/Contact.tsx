@@ -4,7 +4,7 @@ import { TabbedParagraph } from '../components/TabbedParagraph';
 export const Contact = () => {
 
 	return (
-		<PageContainer pageTitle='Contact Dr. Bailey and Associates'>
+		<PageContainer pageTitle='Contact Dr. Bailey and Associates' showContactButton={false}>
 			<TabbedParagraph content={'To schedule a free 30-minute consultation or for other questions and inquiries, please contact us via phone, email, or the contact form below. We do our best to return messages within 24 business hours.'}/>
 
 			<h4>Information</h4>
