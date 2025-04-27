@@ -32,11 +32,11 @@ export const Header = () => {
 			to: '/contact',
 			name: 'Contact'
 		},
-		{
-			id: 6,
-			to: '/postdoctoral-training',
-			name: 'Postdoctoral Training'
-		},
+		// {
+		// 	id: 6,
+		// 	to: '/postdoctoral-training',
+		// 	name: 'Postdoctoral Training'
+		// },
 		{
 			id: 7,
 			to: '/consultation',
