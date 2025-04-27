@@ -10,7 +10,7 @@
 	--text-box: rgba(231, 231, 231, 0.8);
 	--text-light: rgba(231, 231, 231, 0.85);
 	--text: #000000;
-	--header-height: 100px;
+	--header-height: 110px;
 }
 
 html {
@@ -359,7 +359,7 @@ footer {
 /* Media queries */
 @media screen and (max-width: 960px) {
 	header {
-		height: 110px;
+		height: 130px;
 	}
 
 	.break {

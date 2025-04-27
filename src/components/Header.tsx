@@ -91,6 +91,7 @@ export const Header = () => {
 				<div className='header-subtext'>
 					<h2>Quintin Bailey, PsyD and Associates</h2>
 					<h2>Clinical Psychologist <code>&#8211;</code> CA License #34961 <code>&#8211;</code> TX License #39158</h2>
+					<h2>MI License #6301019627</h2>
 				</div>
 			</header>
 
