@@ -12,7 +12,7 @@ export const Consultation = () => {
 			<h4>Offerings</h4>
 			<h5>Trainings and Lectures </h5>
 			<TabbedParagraph content={'The following trainings and lectures are available in-person or via zoom.'}/>
-			<h5>The Shape of Gender </h5>
+			<h5>Shapes of Gender </h5>
 			<TabbedParagraph content={'This presentation invites clinicians to think critically about the concept of gender. Grounded in trans theory, integrated with narrative therapy techniques, it provides a framework to approach exploration of gender for all patients.'}/>
 			<h5>Trans Inclusive Clinical Interviewing </h5>
 			<TabbedParagraph content={'This training provides an overview of trans inclusive clinical interviewing and documentation. It highlights current limitations within healthcare systems and how to navigate those limitations within a treatment context.'}/>

@@ -7,7 +7,7 @@ export const Clinical = () => {
 	return (
 		<PageContainer pageTitle='Clinical Services'>
 			<h4>Individual Therapy</h4>
-			<TabbedParagraph content={'QGB Therapy LLC currently offers telehealth psychotherapy services for adults throughout California.'}/>
+			<TabbedParagraph content={'QGB Therapy LLC currently offers in-person services in the Bay Area and telehealth psychotherapy services for adults throughout California and Texas.'}/>
 
 			<h4>Approach</h4>
 			<TabbedParagraph content={'My primary theoretical orientation is psychodynamic, which means I believe in the unconscious and in the importance of being curious about the unique universe of every patient. Having worked primarily with folks with personality and dissociative disorders, I have great empathy for the suffering from which these styles of relating to the world developed to survive. Every treatment serves as a reminder to me that it is a privilege to sit with another and to witness their process of transformation. By connecting with their values and becoming grounded in the present I have seen folks from a variety of diverse backgrounds and identity intersections increase their capacity to feel, understand, and integrate a range of emotional experiences and become curious about themselves and others.'}/>
@@ -38,7 +38,7 @@ export const Clinical = () => {
 			</div>
 			
 			<h4>Fees </h4>
-			<TabbedParagraph content={'Psychotherapy sessions are $200 per 50-minute hour. Assessments are $250 per 50-minute hour. I am an out of network provider. Sliding scale is available for BIPOC and Trans folks.'}/>
+			<TabbedParagraph content={'Psychotherapy sessions are $225 per 50-minute hour. Assessments are $250 per 50-minute hour. I am an out of network provider. Sliding scale is available for BIPOC and Trans folks.'}/>
 			<br />
 			<Link to={'/good-faith-estimate'}>No Surprise Act: Good Faith Estimate</Link>
 		</PageContainer>

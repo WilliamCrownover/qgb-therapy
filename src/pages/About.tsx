@@ -22,12 +22,14 @@ export const About = () => {
 					<br />
 					<TabbedParagraph className='about-p' content={'Dr. Bailey attended Mills College in Oakland, CA where they graduated with a B.A. in Psychology and Queer Studies. They then earned their PsyD in Clinical Psychology from the Wright Institute in Berkeley, CA. Their undergraduate thesis proposed a theoretical extension of research on racism as a chronic stressor, and its subsequent impact on physical and psychological wellbeing, to understand transphobia as chronic stress. Dr. Bailey’s dissertation explored the importance of the therapeutic alliance and the treatment frame when working with patients experiencing psychosis. Throughout their training they specialized in providing individual and group psychodynamic psychotherapy to adults diagnosed with personality and dissociative disorders, with a particular interest in Borderline Personality Disorder and Dissociative Identity Disorder.'} />
 					<br />
-					<TabbedParagraph className='about-p' content={'In addition to their private practice, Dr. Bailey also serves as the Assistant Clinical Director for The Gronowski Center at Palo Alto University.'} />
+					<TabbedParagraph className='about-p' content={'In addition to their private practice, Dr. Bailey also serves as the Assistant Clinical Director for The Mountain View Clinics @ PAU.'} />
 				</div>
 			</div>
 			<h4>Additional Certifications</h4>
 			<div className='flex flex-wrap'>
 				<ul>
+					<li>Advanced Certificate in Complex Trauma and Dissociation (completed 2025, The
+						International Society for the Study of Trauma and Dissociation)</li>
 					<li>Trauma and Attachment Certificate (complete 2024, The Zur Institute)</li>
 					<li>Certificate Program in Jungian Psychotherapy (completed 2024, The Zur Institute)</li>
 					<li>Certificate of Advanced Psychoanalytic Psychotherapy (completed 2024, The Institute for Advanced Psychological Studies)</li>
