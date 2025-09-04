@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fc0c0582.css",
-    "main.js": "/static/js/main.d24120f2.js",
+    "main.js": "/static/js/main.1f2e5785.js",
     "static/media/qgb-home.jpg": "/static/media/qgb-home.a9439d2b10d02e6a4b30.jpg",
     "index.html": "/index.html",
     "main.fc0c0582.css.map": "/static/css/main.fc0c0582.css.map",
-    "main.d24120f2.js.map": "/static/js/main.d24120f2.js.map"
+    "main.1f2e5785.js.map": "/static/js/main.1f2e5785.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0c0582.css",
-    "static/js/main.d24120f2.js"
+    "static/js/main.1f2e5785.js"
   ]
 }
