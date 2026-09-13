@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 
 import { Header } from '../components/Header';
 import { Home } from './Home';
-import { About } from './About';
 // import { PostdoctoralAssociates } from './PostdoctoralAssociates';
 import { Clinical } from './Clinical';
 import { GoodFaithEstimate } from './GoodFaithEstimate';
@@ -18,7 +17,7 @@ export const Pages = () => {
 			
 			<Routes>
 				<Route path='/*' element={<Home />} />
-				<Route path='/about' element={<About />} />
+				{/* <Route path='/about' element={<About />} /> */}
 				{/* <Route path='/associates' element={<PostdoctoralAssociates />} /> */}
 				<Route path='/clinical-services' element={<Clinical />} />
 				<Route path='/good-faith-estimate' element={<GoodFaithEstimate />} />

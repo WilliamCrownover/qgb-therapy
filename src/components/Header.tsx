@@ -12,11 +12,11 @@ export const Header = () => {
 			to: '/',
 			name: 'Home'
 		},
-		{
-			id: 2,
-			to: '/about',
-			name: 'About Dr. Bailey'
-		},
+		// {
+		// 	id: 2,
+		// 	to: '/about',
+		// 	name: 'About Dr. Bailey'
+		// },
 		// {
 		// 	id: 3,
 		// 	to: '/associates',
