@@ -28,6 +28,11 @@ export const Header = () => {
 			name: 'Clinical Services'
 		},
 		{
+			id: 9,
+			to: '/meditations',
+			name: 'Meditations'
+		},
+		{
 			id: 5,
 			to: '/contact',
 			name: 'Contact'
@@ -37,22 +42,6 @@ export const Header = () => {
 		// 	to: '/postdoctoral-training',
 		// 	name: 'Postdoctoral Training'
 		// },
-		{
-			id: 7,
-			to: '/consultation',
-			name: 'Trans Inclusive Clinic Consultation'
-		},
-		{
-			id: 8,
-			to: '/publications',
-			name: 'Publications and Media'
-		},
-		{
-			id: 9,
-			to: '/meditations',
-			name: 'Meditations'
-		},
-
 	]
 
 	const [navOpen, setNavOpen] = useState(false);
