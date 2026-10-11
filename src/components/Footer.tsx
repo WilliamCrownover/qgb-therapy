@@ -14,7 +14,7 @@ export const Footer = () => {
 				>
 					<img
 						className='verified-pic'
-						src={`${process.env.PUBLIC_URL}/assets/pt.png`}
+						src={`${import.meta.env.BASE_URL}assets/pt.png`}
 						alt='Verified Psychology Today'
 					/>
 				</a>

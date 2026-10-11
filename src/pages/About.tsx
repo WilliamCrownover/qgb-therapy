@@ -8,12 +8,12 @@ export const About = () => {
 			<div className='flex flex-wrap-mobile f-align-top'>
 				<img
 					className='profile-pic'
-					src={`${process.env.PUBLIC_URL}/assets/qgb.jpg`}
+					src={`${import.meta.env.BASE_URL}assets/qgb.jpg`}
 					alt='Dr. Quintin Bailey'
 				/>
 				<img
 					className='profile-pic profile-pic-small'
-					src={`${process.env.PUBLIC_URL}/assets/qgb-s.jpg`}
+					src={`${import.meta.env.BASE_URL}assets/qgb-s.jpg`}
 					alt='Dr. Quintin Bailey'
 				/>
 				<div className='break-2'></div>
