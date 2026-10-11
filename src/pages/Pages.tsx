@@ -8,6 +8,7 @@ import { GoodFaithEstimate } from './GoodFaithEstimate';
 import { Contact } from './Contact';
 // import { PostdoctoralTraining } from './PostdoctoralTraining';
 import { Meditations } from './Meditations';
+import { About } from './About';
 
 export const Pages = () => {
 
@@ -17,7 +18,7 @@ export const Pages = () => {
 			
 			<Routes>
 				<Route path='/*' element={<Home />} />
-				{/* <Route path='/about' element={<About />} /> */}
+				<Route path='/about' element={<About />} />
 				{/* <Route path='/associates' element={<PostdoctoralAssociates />} /> */}
 				<Route path='/clinical-services' element={<Clinical />} />
 				<Route path='/good-faith-estimate' element={<GoodFaithEstimate />} />

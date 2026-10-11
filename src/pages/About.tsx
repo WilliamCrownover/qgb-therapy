@@ -4,7 +4,7 @@ import { TabbedParagraph } from '../components/TabbedParagraph';
 export const About = () => {
 
 	return (
-		<PageContainer pageTitle={'About Dr. Bailey'}>
+		<PageContainer pageTitle={'Meet Dr. Bailey'}>
 			<div className='flex flex-wrap-mobile f-align-top'>
 				<img
 					className='profile-pic'
@@ -18,40 +18,30 @@ export const About = () => {
 				/>
 				<div className='break-2'></div>
 				<div className='about-text-container'>
-					<TabbedParagraph className='about-p' content={'I value authenticity and a continued commitment to self-reflection and personal growth. I am comforted to know that the only constant is change, that the act of just sitting and being with another person has profound meaning and potential for healing. I have experienced the power of being witnessed, by others and by myself, in my own personal journey with meditation and spirituality. It is with this mindful reflection that I approach everything I do. It is my hope that this authentic enthusiasm and curiosity can spark in others curiosity about themselves, how they have come to be, and where they would like to go.'} />
+					<p className='about-p'>(Pronouns: He/They)</p>
 					<br />
-					<TabbedParagraph className='about-p' content={'Dr. Bailey attended Mills College in Oakland, CA where they graduated with a B.A. in Psychology and Queer Studies. They then earned their PsyD in Clinical Psychology from the Wright Institute in Berkeley, CA. Their undergraduate thesis proposed a theoretical extension of research on racism as a chronic stressor, and its subsequent impact on physical and psychological wellbeing, to understand transphobia as chronic stress. Dr. Bailey’s dissertation explored the importance of the therapeutic alliance and the treatment frame when working with patients experiencing psychosis. Throughout their training they specialized in providing individual and group psychodynamic psychotherapy to adults diagnosed with personality and dissociative disorders, with a particular interest in Borderline Personality Disorder and Dissociative Identity Disorder.'} />
+					<TabbedParagraph className='about-p' content={'I believe that deep, meaningful healing begins with a genuine, collaborative connection. Therapy should be a safe, attuned space where you don’t have to mask or filter yourself to support a process where you can explore your inner world, untangle old relational patterns, and find a renewed sense of clarity and self-compassion.'} />
+					<h4 style={{ paddingLeft: '30px' }}>My Clinical Approach</h4>
+					<TabbedParagraph className='about-p' content={"I take a relational and psychodynamic approach to therapy. That means we don't just look at what's happening on the surface; we gently explore the deeper roots of how you experience yourself, navigate relationships, and carry your past."} />
+					<br />
+					<TabbedParagraph className='about-p' content={"My practice focuses on providing culturally humble, affirming care, with specialized expertise in supporting adults navigating:"} />
+					<br />
+					<ul>
+						<li>Interpersonal and developmental trauma, and the lingering impacts of painful past experiences</li>
+						<li>Complex emotional patterns, heavy life transitions, and a fragmented sense of self</li>
+						<li>Identity development, including dedicated support for trans and LGBTQIA+ individuals</li>
+					</ul>
 				</div>
 			</div>
-			<h4>Additional Certifications</h4>
 			<div className='flex flex-wrap'>
-				<ul>
-					<li>Advanced Certificate in Complex Trauma and Dissociation (completed 2025, The
-						International Society for the Study of Trauma and Dissociation)</li>
-					<li>Trauma and Attachment Certificate (complete 2024, The Zur Institute)</li>
-					<li>Certificate Program in Jungian Psychotherapy (completed 2024, The Zur Institute)</li>
-					<li>Certificate of Advanced Psychoanalytic Psychotherapy (completed 2024, The Institute for Advanced Psychological Studies)</li>
-				</ul>
 			</div>
-			<h4>Professional Organizations</h4>
+			<h4>Credentials & Background</h4>
 			<div className='flex flex-wrap'>
-				<ul>
-					<li>
-						<a href={'https://www.apa.org/'} target={'_blank'} rel={'noopener noreferrer'}>American Psychological Association</a> (Member)
-					</li>
-					<li>
-						<a href={'https://www.isst-d.org/'} target={'_blank'} rel={'noopener noreferrer'}>International Society for the Study of Trauma and Dissociation</a> (Member)
-					</li>
-					<li>
-						<a href={'https://nasspd.org/'} target={'_blank'} rel={'noopener noreferrer'}>North American Society for the Study of Personality Disorders</a> (Member)
-					</li>
-					<li>
-						<a href={'https://www.genderyouthproviders.com/'} target={'_blank'} rel={'noopener noreferrer'}>Mind the Gap</a> (Member)
-					</li>
-					<li>
-						<a href={'https://www.aptc.org/'} target={'_blank'} rel={'noopener noreferrer'}>Association of Psychology Training Clinics</a> (Associate Member)
-					</li>
-				</ul>
+				<TabbedParagraph content={"I am a licensed clinical psychologist in California, Michigan, and Texas, and I am board-certified in Psychoanalytic and Psychodynamic Psychology by the American Board of Professional Psychology (ABPP)."} />
+				<br />
+				<TabbedParagraph content={"Beyond standard graduate training, I have pursued advanced post-graduate studies, including a specialized certificate in Complex Trauma and Dissociation from the International Society for the Study of Trauma and Dissociation (ISSTD), alongside focused training in Jungian psychotherapy and trauma-informed attachment."} />
+				<br />
+				<TabbedParagraph content={"In addition to my clinical work, I am deeply engaged in scholarly writing, advocacy, and education centered on psychoanalytic theory, trans identity, and making mental health systems more equitable and inclusive."} />
 			</div>
 		</PageContainer>
 	);
