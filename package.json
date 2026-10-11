@@ -18,6 +18,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "postinstall": "patch-package",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.10"
+    "@types/react-dom": "^18.0.10",
+    "patch-package": "^8.0.1"
   }
 }
